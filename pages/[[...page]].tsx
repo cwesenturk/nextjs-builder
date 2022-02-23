@@ -92,7 +92,7 @@ export default function Page({
 
       <Header />
         <CodeBlock  color="blue" title="Logo" />
-        <BuilderComponent model="page" data={ {locale: locale} } content={page} renderLink={Link} />
+        <BuilderComponent model="page" data={{locale: locale}} content={page} renderLink={Link} />
       <Footer />
     </>
   )
